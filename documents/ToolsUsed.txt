@@ -1,0 +1,5 @@
+Text-Editor : Sublime
+Project Manager : Git
+Database server + client : MySql
+J2EE editor : Eclipse
+UI : Eclipse swing plugin

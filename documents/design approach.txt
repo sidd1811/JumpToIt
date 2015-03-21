@@ -1,0 +1,10 @@
+PHASE 1:
+
+UI : Swing
+
+Backend : Java J2EE
+		
+			1. Main class : searching for the item from db
+			2. Access-button setter class : depending on the way to access(4 ways), set the button and its functionality
+
+DB : ITEM-VALUE-ACCESSMETHOD table

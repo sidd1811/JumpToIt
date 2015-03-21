@@ -1,0 +1,32 @@
+PHASE 1:
+
+Java swing app including:
+
+1. autofill/smart search drop down to select the item(important)
+2. textarea displaying the corresponding value
+3. button to copy the value
+4. button to open as :
+	a. web page
+	b. telnet link with/without credentials, open in filezilla with/without credentials
+	c. remote desktop connection with credentials
+	d. repo in tortoise svn repository browser
+	e. system explorer (through run.exe)
+	f. access as oracle db in sql client (extended scope)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+PHASE 2:
+
+Java swing app:
+
+Phase 1 + 
+	1. Button to open as: 
+		a. smart open, detects the correct access method out of the 4 specified in phase 1
+	2. Smart adder, no need to specify the access method
+	3. button to add a new item-value pair with checkbox(single select) to specify the type of access method
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+PHASE 3:
+
+Phase 1 + 2 plus multiaccess methods
