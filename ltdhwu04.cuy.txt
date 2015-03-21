@@ -1,0 +1,16 @@
+﻿Created java project and added source files.
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	new file:   .classpath
+#	modified:   .gitignore
+#	new file:   .project
+#	new file:   documents/Requirements.txt
+#	new file:   documents/ToolsUsed.txt
+#	new file:   documents/design approach.txt
+#	new file:   src/com/jti/phase_1/AccessSpecifier.java
+#	new file:   src/com/jti/phase_1/QueryDb.java
+#	new file:   src/com/jti/phase_1/UI.java
+#
+
