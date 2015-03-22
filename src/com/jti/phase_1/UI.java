@@ -31,6 +31,7 @@ public class UI {
 	public static void main(String[] args) {
 		
 		QueryDb.populateItemNames();
+		AccessSpecifier accessSpecifier = new AccessSpecifier();
 		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -114,6 +115,9 @@ public class UI {
 		btnAccessTheLink.setFont(new Font("HP Simplified", Font.BOLD, 15));
 		btnAccessTheLink.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				QueryDb.setValueAndAccess(accessSpecifier.itemName);
+				accessSpecifier.setItemValue();
+				accessSpecifier.setItemAccessMethod();
 			}
 		});
 		btnAccessTheLink.setBounds(174, 268, 200, 50);

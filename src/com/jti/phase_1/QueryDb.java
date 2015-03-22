@@ -4,13 +4,13 @@ import java.sql.*;
 
 public class QueryDb {
 	
-	
+	public static String[] itemNameList;
 	
 	public static void populateItemNames() {
-		
+		//set itemNameList with db values
 	};
 	
-	public static void searchValueAndAccess(AccessSpecifier itemName) {
+	public static void setValueAndAccess(AccessSpecifier itemName) {
 		
 	};
 }
